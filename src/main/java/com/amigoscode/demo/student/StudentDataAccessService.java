@@ -40,7 +40,11 @@ public class StudentDataAccessService {
                 " last_name, " +
                 " email, " +
                 " gender) " +
+<<<<<<< .merge_file_MQz6hr
                 "VALUES (?, ?, ?, ?, ?::gender)";
+=======
+                "VALUES (?, ?, ?, ?, ?::GENDER)";
+>>>>>>> .merge_file_5aQmQp
         return jdbcTemplate.update(
                 sql,
                 studentId,
