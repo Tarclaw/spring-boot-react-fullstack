@@ -8,5 +8,13 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
+
+        wildExperiment("how are u");
+    }
+
+    public static void wildExperiment(String message) {
+
+        System.out.println(message);
+        System.out.println(message);
     }
 }
